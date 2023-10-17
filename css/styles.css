@@ -1,13 +1,164 @@
-body{
-    background-color:#EFEDEE;
-    font-family:'Markazi Text',serif;
-    margin:3rem 5%;
+body {
+    background-color: rgb(255, 247, 224);
+    font-family: 'Markazi Text',serif;
+    margin: 3rem 5%;
 }
 
-h1{
-    font-size:3rem;
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 7% 5% 0 60%;
+    text-shadow: 0 0.2rem 0.5rem black, 0 0.2rem 1rem black;
 }
 
 h2 {
     font-size: 2rem;
+    margin: 1% 0;
+}
+
+
+
+header > img.logo{
+    display:block;
+    margin:1% auto;
+    max-width:7%;
+}
+
+nav{
+    
+    font-size:1.7rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    /*justify-content: space-evenly;*/
+
+}
+
+    nav li:not(li.border-brown,li.border-brown-bottom) {
+        background-color: rgb(114,54,10);
+        flex:1;
+    }
+
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        padding: 3% 0;
+    }
+
+nav a:link{
+    color:white;
+}
+
+nav a:hover {
+    color: rgb(162,255,169);
+}
+
+nav a:visited {
+    color: lightgrey;
+}
+
+nav a:active {
+    color: rgb(255,253,199);
+}
+
+
+section {
+    display: flex;
+    padding: 0 5%;
+    gap: 0 20px;
+}
+
+section:first-child p {
+    margin: 0 5% 0 60%;
+    text-shadow: 0 0 0.5rem black, 0 0 1rem black;
+}
+
+section img {
+    width:100%;
+
+}
+
+section p {
+    margin: 1% 0;
+}
+
+article {
+    flex: 1;
+    
+}
+
+.banner {
+    margin: 3% 0;
+    border-radius: 0 0 0 50px;
+    background: rgb(0,0,0) url('../images/8kka-ame-IlM9F-j3DRo-unsplash.jpg');
+    background-size: cover;
+    background-position: 0 50%;
+    height: 300px;
+    color:white;
+}
+
+footer{
+    height:50px;
+    color:white;
+    display:flex;
+    margin-top:3%;
+}
+
+footer > :not(div.left-triange,div.right-triangle) {
+    width: calc(49.5% - 100px);
+    /*        vertical-align: middle;
+    display: inline-block;*/
+    background-color: rgb(181,52,52);
+    height: 100%;
+    flex: 1;
+}
+
+
+footer img.logo {
+    /*max-width: 4%;*/
+    height:80%;
+    margin:1% 3%;
+
+}
+
+footer cite {
+    display:block;
+    padding: 3% 0;
+}
+
+.logo{
+    margin:3%;
+}
+
+
+
+.left-triange {
+    width: 0;
+    height: 0;
+    border-top: 50px solid rgb(181,52,52);
+    border-left: 50px solid transparent;
+}
+
+.right-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid rgb(181,52,52);
+    border-right: 50px solid transparent;
+
+}
+
+.border-brown {
+    border-top: 50px solid rgb(114,54,10);
+}
+
+.border-brown-bottom {
+    border-bottom: 50px solid rgb(114,54,10);
 }

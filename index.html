@@ -17,76 +17,76 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Little Lemon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logo_green.png">
+        <img src="images/logo_green.png" class="logo">
     </header>
     <nav>
         <ul>
+            <li class="left-triange border-brown"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="book.html">Book</a></li>
             <li><a href="about.html">About</a></li>
+            <li class="right-triangle border-brown-bottom"></li>
         </ul>
     </nav>
     <main>
         <section>
-            <article>
-                <h1>Heading 1</h1>
+            <article class="banner">
+                <h1>Suculent Sale!</h1>
                 <p>
-                    Lorem ipsum
-                </p>
-            </article>
-
-            <article>
-                <h1>Heading 2</h1>
-                <p>
-                    Lorem ipsum
-                </p>
-            </article>
-
-            <article>
-                <h1>Heading 3</h1>
-                <p>
-                    Lorem ipsum
+                    All plants are 20% off!
                 </p>
             </article>
         </section>
-        <form>
-            <div>
-                <label for="email">User Name</label>
-                <input type="email" id="email" name="email" required minlength="2" />
-            </div>
+        <section>
+            <article>
+                <img src="images/sixteen-miles-out-9dlJd7aMcOE-unsplash.jpg" alt="succulent pots" />
+                <h2>Potted Succulents</h2>
+                <p>
+                    Brand new pots from Martha Stewart to bring the outdoors in.
+                </p>
+            </article>
 
-            <div>
-                <label for="booking_date">Booking Date</label>
-                <input type="date" id="booking_date" name="booking_date" required />
-            </div>
+            <article>
+                <img src="images/carl-newton-7MHrEpCA3lA-unsplash.jpg" alt="succulent pots" />
+                <h2>Spring Arrivals</h2>
+                <p>
+                    New lavendar mixes to spruce up your seasonal beds.
+                </p>
+            </article>
 
-            <div>
-                <label for="number_people">Number of People</label>
-                <input type="number" id="number_people" name="number_people" required min="1" max="8" />
-            </div>
-
-            <div>
-                <label for="cancel_policy">I agree to the cancellation policy</label>
-                <input type="checkbox" id="cancel_policy" name="cancel_policy" required />
-            </div>
-
-            <button type="submit">Book Now</button>
-        </form>
+            <article>
+                <img src="images/amy-chen-G0GGAMRF4Y0-unsplash.jpg" alt="succulent pots" />
+                <h2>Baby Succulents</h2>
+                <p>
+                    These perfect succulents dress up any window.
+                </p>
+            </article>
+        </section>
+        
     </main>
     <footer>
+
+        <div class="left-triange"></div>
+
         <div>
-            <img src="images/logo_green.png">
+            <img src="images/logo_grey.png" class="logo">
         </div>
 
         <div>
             <cite>&copy; Lucky Shrub</cite>
         </div>
+
+        <div class="right-triangle"></div>
     </footer>
 
 </body>
