@@ -102,7 +102,7 @@ footer{
 }
 
 footer > :not(div.left-triange,div.right-triangle) {
-    width: calc(49.5% - 100px);
+    width: calc(50% - 100px);
     background-color: rgb(181,52,52);
     height: 100%;
     flex: 1;
@@ -110,7 +110,7 @@ footer > :not(div.left-triange,div.right-triangle) {
 
 
 footer img.logo {
-    height:80%;
+    height:76%;
     margin:1% 4%;
 
 }
