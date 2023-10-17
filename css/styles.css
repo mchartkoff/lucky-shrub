@@ -127,7 +127,7 @@ footer cite {
 .banner {
     margin: 3% 0;
     border-radius: 0 0 0 50px;
-    background: rgb(0,0,0) url('../images/8kka-ame-IlM9F-j3DRo-unsplash.jpg');
+    background: rgb(0,0,0) url('https://images.unsplash.com/photo-1615895404143-73535e5600df?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1931');
     background-size: cover;
     background-position: 0 50%;
     height: 300px;
@@ -155,4 +155,9 @@ footer cite {
 
 .border-brown-bottom {
     border-bottom: 50px solid rgb(114,54,10);
+}
+
+.mask {
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 0 89%, transparent 50% 100%);
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 0 89%, transparent 50% 100%);
 }
